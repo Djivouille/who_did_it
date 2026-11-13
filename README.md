@@ -1,4 +1,4 @@
- # Who Did It <img src="custom_components/who_did_it/logo.png" alt="Logo Who Did It" width="35">
+ # Who Did It <img src="custom_components/who_did_it/brand/icon.png" alt="Logo Who Did It" width="35">
 
 Icône de l'intégration : `mdi:account-question`
 
@@ -10,6 +10,10 @@ Custom integration Home Assistant générique pour suivre **qui a fait quoi** da
 - **Multi-tâches** : une entrée par tâche — « Lave-vaisselle », « Lave-linge », « Chien »... chacune avec sa propre icône.
 
 Exemples d'utilisation : qui a vidé le lave-vaisselle, qui a sorti le lave-linge, qui a donné à manger au chien.
+
+## Versionnement
+
+Les versions suivent le format **`AAAA.MM.JJ`** (date de publication), par exemple `2026.11.13`. HA et HACS exigeant une version parsable dans `manifest.json`, les séparateurs `-` et `_` sont remplacés par des points et le format est limité à 3 segments (calendrier) ; si plusieurs versions sont publiées le même jour, la date du jour suivant est utilisée. Une release GitHub du même nom est publiée automatiquement par le workflow du dépôt à chaque changement de version.
 
 ## Installation
 
